@@ -63,7 +63,7 @@ const courseSchema = new mongoose.Schema({
   },
 });
 
-const courseModel = mongoose.model("Course", courseSchema);
+const courseModel = mongoose.model("Courses", courseSchema);
 module.exports = courseModel;
 
 const adminSchema = new mongoose.Schema({
